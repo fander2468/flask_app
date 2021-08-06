@@ -12,7 +12,10 @@
     {% block css %}
 
     {% endblock %}
-    <title>Pokemon Information Site</title>
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
